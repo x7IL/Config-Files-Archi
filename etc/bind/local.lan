@@ -13,8 +13,11 @@ $TTL    604800
 ns      IN      A       192.168.1.100
 @       IN      A       192.168.1.253
 waf     IN      A       192.168.1.103
-ha-proxy IN      A       192.168.1.105
+lb      IN      A       192.168.1.105
 server1 IN      A       192.168.1.110
 server2 IN      A       192.168.1.111
-redis   IN      A       192.168.1.120
+cache   IN      A       192.168.1.120
 pma     IN      A       192.168.1.115
+storage IN      A       192.168.1.130
+dbr     IN      A       192.168.1.135
+dbnr    IN      A       192.168.1.138
